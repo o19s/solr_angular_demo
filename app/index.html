@@ -26,7 +26,7 @@
     <![endif]-->
 
     <!-- Add your site or application content here -->
-    <div class="container" ng-view=""></div>
+    <search-results solr-url="'http://ec2-75-101-214-153.compute-1.amazonaws.com:8983/solr/statedecoded/search'" query="'car tax'" display-field="'catch_line'"></search-results>
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
@@ -64,6 +64,7 @@
         <!-- build:js({.tmp,app}) scripts/scripts.js -->
         <script src="scripts/app.js"></script>
         <script src="scripts/controllers/main.js"></script>
+        <script src="scripts/directives/searchResults.js"></script>
         <!-- endbuild -->
 </body>
 </html>
