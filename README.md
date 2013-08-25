@@ -1,7 +1,7 @@
 solr_angular_demo
 =================
 
-A little search widget for instant Solr search with angular
+A little search widget for instant Solr search with angular as discussed in [this blog post](http://www.opensourceconnections.com/2013/08/25/instant-search-with-solr-and-angular/)
 
 Setup with yeoman/grunt, but the easiest way to play with this is just to
 
